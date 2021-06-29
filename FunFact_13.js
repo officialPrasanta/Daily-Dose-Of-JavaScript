@@ -1,6 +1,7 @@
+// Application of reduce method
 let fruits = [
     {
-        name: "avocardo",
+        name: "avocado",
         price: 90,
         quantity: 3
     },
