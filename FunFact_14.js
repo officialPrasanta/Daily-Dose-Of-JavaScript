@@ -5,7 +5,7 @@ const randomXORShift = () => {
     x0 ^= x0 << 13;
     x0 ^= x0 >> 7;
     x0 ^= x0 << 17;
-    console.log('Random Number(32-bit):', (x0 & 0xFFFF));
+    console.log('Random Number(16-bit):', (x0 & 0xFFFF));
 
 }
 randomXORShift();
