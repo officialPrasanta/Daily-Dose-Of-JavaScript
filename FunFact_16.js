@@ -19,7 +19,7 @@ let cricketer = {
 function printBio(score) {
     console.log("My Favorite Cricketer: ");
     console.log(this.firstName + " " + this.lastName);
-    console.log("He scores over " + score + " run in ODI.");
+    console.log("He scores over " + score + " runs in ODI.");
 }
 
 printBio.call(cricketer, "10000");
