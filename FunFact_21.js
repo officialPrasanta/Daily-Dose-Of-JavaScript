@@ -5,7 +5,7 @@ let b = [20, 40, 60];
 
 function zip(xArr, yArr) {
     let xlen, ylen;
-    let t;      // parent array
+    let parentArray;      // parent array
     let zipped; // zipped array
 
     xlen = xArr.length;
@@ -16,14 +16,13 @@ function zip(xArr, yArr) {
     }
 
     // encapsulate arrays
-    t = [xArr, yArr];
+    parentArray = [xArr, yArr];
 
     //create range generator of size xArr.length
     let range = Array.from(Array(xlen).keys());
-    console.log(range);
 
     zipped = range.map(index => {
-        return t.map(col => col[index]);
+        return parentArray.map(col => col[index]);
     })
     return zipped;
 }
