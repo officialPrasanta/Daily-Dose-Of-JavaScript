@@ -35,3 +35,6 @@ The Fun Fact Series on JavaScript is a coding challenge by myself during the `#1
 0. **FunFact 16:** Arrow function vs Classical function with .call() method. 
 0. **FunFact 17:** .call() vs .apply() vs .bind() method.
 0. **FunFact 18:** Example on Object.seal() method.
+0. **FunFact 19:** Function as Class.
+0. **FunFact 20:** Range Generator.
+0. **FunFact 21:** Python Like Zip Function.
