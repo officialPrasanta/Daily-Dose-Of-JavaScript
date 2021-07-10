@@ -39,3 +39,4 @@ The Fun Fact Series on JavaScript is a coding challenge by myself during the `#1
 0. **FunFact 20:** Range Generator.
 0. **FunFact 21:** Python Like Zip Function.
 0. **FunFact 22:** Private variable and method in class.
+0. **FunFact 23:** Array.prototype.some() example.
