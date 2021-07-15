@@ -42,3 +42,4 @@ The Fun Fact Series on JavaScript is a coding challenge by myself during the `#1
 0. **FunFact 23:** Array.prototype.some() example.
 0. **FunFact 24:** function.prototype usecase 1: count params.
 0. **FunFact 25:** function.prototype usecase 2: custom bind method.
+0. **FunFact 26:** Clouser Property Explained.
