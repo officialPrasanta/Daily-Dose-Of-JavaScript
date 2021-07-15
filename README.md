@@ -11,7 +11,7 @@
 
 <br>
 
-The Daily Dose Of JavaScript is a coding challenge by myself during the `#100DaysOfCode` challenge. Every day, I will be studying new tricks, fun facts, and mindboggling features of JavaScript and try to represent them in the best possible way through codes. I will be posting this code on my [Twitter handle](https://twitter.com/speczly) for others programmers and enthusiasts to have something from it.
+The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#100DaysOfCode` challenge. It includes a compilation of tricks, fun facts, and mindboggling features of JavaScript, and I have tried to represent them in the best possible way. I will keep posting these kinds of code on my [Twitter handle](https://twitter.com/speczly) for other programmers and enthusiasts to have something from it.
 
 <br>
 
