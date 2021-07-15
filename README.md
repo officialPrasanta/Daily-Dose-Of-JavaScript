@@ -1,6 +1,6 @@
 # Daily Dose Of JavaScript
 
-## Author Notes:
+## Author's Note:
 <br>
 
 > &nbsp;&nbsp;&nbsp;&nbsp;*"In vain have you<br>
