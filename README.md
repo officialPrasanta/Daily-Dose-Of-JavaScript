@@ -43,3 +43,5 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 24:** function.prototype usecase 1: count params.
 0. **FunFact 25:** function.prototype usecase 2: custom bind method.
 0. **FunFact 26:** Clouser Property Explained.
+0. **FunFact 27_a:** var vs let. Wrong Approach.
+0. **FunFact 27_b:** var vs let. Correct Approach.
