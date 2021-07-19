@@ -46,3 +46,5 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 27_a:** var vs let. Wrong Approach.
 0. **FunFact 27_b:** var vs let. Correct Approach.
 0. **FunFact 28:** 2 different approach to convert string to array.
+0. **FunFact 29_a:** Async function.
+0. **FunFact 29_b:** Async and await with setTimeout.
