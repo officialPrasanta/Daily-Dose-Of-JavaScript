@@ -48,3 +48,5 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 28:** 2 different approach to convert string to array.
 0. **FunFact 29_a:** Async function.
 0. **FunFact 29_b:** Async and await with setTimeout.
+0. **FunFact 30_a:** XMLHttpRequest vs Fetch API: XMLHttpRequest.
+0. **FunFact 30_b:**XMLHttpRequest vs Fetch API: Fetch API.
