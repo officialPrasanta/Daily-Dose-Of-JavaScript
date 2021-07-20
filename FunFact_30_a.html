@@ -1,0 +1,45 @@
+<!-- XMLHttpRequest -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>check console...</h3>
+    </div>
+    <script>
+        let urlAddr = "http://quotes.rest/qod";
+        let METHOD = 'GET';
+        function XMLHttpRequestCall(url, method) {
+            let success = function () {
+                let data = JSON.parse(this.responseText);
+                let quote = data.contents.quotes[0].quote;
+                let author = data.contents.quotes[0].author;
+                console.log(`Quote:\n${quote}\n\nAuthor: ${author}`);
+            }
+
+            let error = function (err) {
+                console.log('Error occured', err);
+            }
+
+            let xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+
+            xhr.onload = success;
+            xhr.onerror = error;
+
+            xhr.send();
+        }
+
+        XMLHttpRequestCall(urlAddr, METHOD);
+
+    </script>
+</body>
+
+</html>

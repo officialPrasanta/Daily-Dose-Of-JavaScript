@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Check console...</h3>
+    </div>
+
+    <script>
+        let urlAddr = "http://quotes.rest/qod";
+        function fetchCall(url) {
+            fetch(url)
+                .then(function (response) {
+                    console.log(response.json());
+                })
+                .catch(function (err) {
+                    console.log('Error occured', err);
+                });
+        }
+
+        fetchCall(urlAddr);
+    </script>
+</body>
+
+</html>
