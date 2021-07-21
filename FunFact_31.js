@@ -1,4 +1,4 @@
-
+// random string generator
 function randomString(len) {
     let str = "";
     let randomNo;
