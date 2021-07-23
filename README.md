@@ -52,3 +52,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 30_b:** XMLHttpRequest vs Fetch API: Fetch API.
 0. **FunFact 31:** Random String Generator.
 0. **FunFact 32:** Stack implementation in array (stack creation only!!).
+0. **FunFact 32:** Immediate Invoking Funtion Expression.
