@@ -54,3 +54,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 32:** Stack implementation in array (stack creation only!!).
 0. **FunFact 33:** Immediate Invoking Funtion Expression.
 0. **FunFact 34:** 3 stereotypical functions in array operation.
+0. **FunFact 35:** Loop through Javascript Object elements.
