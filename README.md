@@ -56,3 +56,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 34:** 3 stereotypical functions in array operation.
 0. **FunFact 35:** Loop through Javascript Object elements.
 0. **FunFact 36:** Shuffle an array.
+0. **FunFact 37:** Swap String Element using String.prototype property.
