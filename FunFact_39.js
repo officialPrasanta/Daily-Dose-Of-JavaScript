@@ -26,8 +26,8 @@ let badArray = primes.forEach((prime) => prime * 2);
 console.log(badArray);
 console.log(primes);
 
-// correct example
-console.log('\ncorrect example:');
+// good example
+console.log('\ngood example:');
 let res = [];
 // a callback function
 const multiplyPrime = function (item) {
