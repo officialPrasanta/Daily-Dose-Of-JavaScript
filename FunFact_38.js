@@ -57,8 +57,8 @@ let slicedWord;
 console.log('example 1:');
 let fib = [1, 1, 2, 3, 5, 8];
 slicedFib = fib.slice(0, 4);
-console.log('silcedFib: ', slicedFib);
-console.log('fib: ', fib);
+console.log('silcedFib: ', slicedFib); // [ 1, 1, 2, 3 ]
+console.log('fib: ', fib); // [ 1, 1, 2, 3, 5, 8 ]
 
 
 // Example 2
@@ -72,7 +72,7 @@ console.log('twoWords: ', twoWords); //  Inhale Exhale
 console.log('\n\n***Split Example:***\n');
 /*
 * split() in JavaScript: A string class method;
-* doesn't change input string. Splits a string by separator and return into a new array.
+* doesn't change input string. Splits a string by separator and returns it into a new array.
 * syntax: string.split(separator, limit);
 */
 
