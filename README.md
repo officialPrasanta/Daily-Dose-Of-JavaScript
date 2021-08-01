@@ -1,5 +1,7 @@
 # Daily Dose Of JavaScript
 
+![](/images/main-header.png)
+
 ## Author's Note:
 <br>
 
