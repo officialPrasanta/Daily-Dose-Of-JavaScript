@@ -61,3 +61,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 37:** Swap String Element using String.prototype property.
 0. **FunFact 38:** splice, slice and split in JavaScript. Explained
 0. **FunFact 39:** High Order Functions in JavaScript. .map(), .filter(), .forEach() and .reduce(). Gist
+0. **FunFact 40:** Fork Bomb in JavaScript.
