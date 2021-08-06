@@ -15,8 +15,12 @@
     <script>
         let div = document.querySelector('.main-container');
         div.addEventListener("click", e => {
+
             console.log('Target: ', e.target);
+            // O.P- Target: <div class="sub-container">Event Context</div>
+
             console.log('Current Target: ', e.currentTarget);
+            // O.P- Current Target: <div class="main-container">...</div>
         });
     </script>
 </body>
