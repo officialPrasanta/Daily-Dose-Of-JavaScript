@@ -63,3 +63,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 39:** High Order Functions in JavaScript. .map(), .filter(), .forEach() and .reduce(). Gist
 0. **FunFact 40:** Fork Bomb in JavaScript.
 0. **FunFact 41:** Target vs CurrentTaget in DOM.
+0. **FunFact 42:** Currying in JavaScript.
