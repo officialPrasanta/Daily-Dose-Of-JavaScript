@@ -64,3 +64,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 40:** Fork Bomb in JavaScript.
 0. **FunFact 41:** Target vs CurrentTaget in DOM.
 0. **FunFact 42:** Currying in JavaScript.
+0. **FunFact 43:** Creating immutable Objects in JavaScript- 3 ways.
