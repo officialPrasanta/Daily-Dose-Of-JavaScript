@@ -11,13 +11,25 @@
 </head>
 
 <body>
+    <div style="display: flex;">
+        <button onclick="Counter()">Counter</button>
+        <button onclick="localStorage.clear()">Clear</button>
+    </div>
+    <p id="res"></p>
     <script>
         function Counter() {
-            let counter = localStorage.getItem('counter');
+
             if (Storage !== undefined) {
-                if (counter) {
-                    localStorage
+                if (localStorage.counter) {
+                    localStorage.counter = Number(localStorage.counter) + 1;
                 }
+                else {
+                    localStorage.counter = 1;
+                }
+                document.getElementById("res").innerHTML = "count: " + localStorage.counter;
+            }
+            else {
+                console.log('Your browser doesn\'t support web storage');
             }
         }
     </script>
