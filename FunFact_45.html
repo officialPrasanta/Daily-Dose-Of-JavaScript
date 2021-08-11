@@ -13,7 +13,7 @@
 <body>
     <div style="display: flex;">
         <button onclick="Counter()">Counter</button>
-        <button onclick="localStorage.clear()">Clear</button>
+        <button onclick="Clear()">Clear</button>
     </div>
     <p id="res"></p>
     <script>
@@ -31,6 +31,11 @@
             else {
                 console.log('Your browser doesn\'t support web storage');
             }
+        }
+
+        function Clear() {
+            localStorage.clear();
+            document.getElementById("res").innerHTML = "";
         }
     </script>
 </body>
