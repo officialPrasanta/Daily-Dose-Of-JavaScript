@@ -67,3 +67,4 @@ The Daily Dose Of JavaScript is a coding challenge that I'd started during my `#
 0. **FunFact 43:** Creating immutable Objects in JavaScript- 3 ways.
 0. **FunFact 44_main:** WebWorker- main.
 0. **FunFact 44_worker:** WebWorker-background operation.
+0. **FunFact 45:** LocalStorage.
